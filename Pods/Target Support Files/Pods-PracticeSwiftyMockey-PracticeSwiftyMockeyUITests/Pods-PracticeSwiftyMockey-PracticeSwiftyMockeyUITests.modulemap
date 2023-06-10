@@ -1,0 +1,6 @@
+framework module Pods_PracticeSwiftyMockey_PracticeSwiftyMockeyUITests {
+  umbrella header "Pods-PracticeSwiftyMockey-PracticeSwiftyMockeyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

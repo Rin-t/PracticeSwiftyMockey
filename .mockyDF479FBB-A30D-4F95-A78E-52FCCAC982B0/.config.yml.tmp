@@ -1,0 +1,12 @@
+sources:
+  include:
+  - ../PracticeSwiftyMockey
+templates:
+- /Users/rin/git/Practice/PracticeSwiftyMockey/.mockyDF479FBB-A30D-4F95-A78E-52FCCAC982B0/.template.swifttemplate
+output: /Users/rin/git/Practice/PracticeSwiftyMockey/.mockyDF479FBB-A30D-4F95-A78E-52FCCAC982B0/types.yaml
+args:
+  swiftyMocky:
+    import:
+    - Foundation
+    testable:
+    - PracticeSwiftyMockey

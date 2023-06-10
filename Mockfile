@@ -1,0 +1,14 @@
+sourceryCommand: null
+sourceryTemplate: null
+PracticeSwiftyMockeyTests:
+  sources:
+    include:
+    - ./PracticeSwiftyMockey
+  output: ./Mock.generated.swift
+  targets:
+  - PracticeSwiftyMockeyTests
+  testable:
+  - PracticeSwiftyMockey
+  import:
+  - Foundation
+  - SwiftyMocky
