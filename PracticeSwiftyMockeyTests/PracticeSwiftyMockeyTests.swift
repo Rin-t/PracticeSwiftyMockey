@@ -27,7 +27,7 @@ final class PracticeSwiftyMockyTests: XCTestCase {
         
         useCaseMock.verify(
             .fetchUser(completion: .value(result)),
-            count: .more(than: 2)
+            count: .once
         )
 
     }
